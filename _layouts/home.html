@@ -6,7 +6,7 @@ layout: default
   <a href="{{ post.url | prepend: site.baseurl }}" class="card">
     {% if post.image %}
     <div class="card-image">
-      <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+      <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" loading="lazy">
     </div>
     {% else %}
     <div class="card-no-image"></div>
