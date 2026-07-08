@@ -15,7 +15,11 @@ layout: default
 
   {% if page.image %}
   <div class="post-hero">
+  {% if page.image_alt %}
+    <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.image_alt }}">
+  {% else %}
     <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}">
+  {% endif %}
   </div>
   {% endif %}
 
