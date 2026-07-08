@@ -4,6 +4,8 @@ title: "Choosing Optimism"
 date: 2026-06-22
 excerpt: “We don’t get to choose the world we graduate into, but we do get to choose how we frame our circumstances.”
 image: /assets/images/IMG_4954.JPG
+image_alt: "Rohan Khetan at Stanford University graduation ceremony"
+author: "Rohan Khetan"
 ---
 
 <span style="font-weight: 600;">“*We don’t get to choose the world we graduate into, but we do get to choose how we frame our circumstances.*”</span>- Sundar Pichai<br>
