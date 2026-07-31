@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seoul, Just the Two of Us"
+title: "Seoul, On Our Own"
 date: 2026-07-30
 excerpt: "My last post was about presenting at ICML in Seoul. This one isn't about ICML -- it's about the rest of the trip, traveling through Korea with just my sister and no parents."
 image: /assets/images/korea/palace-cover.jpg
