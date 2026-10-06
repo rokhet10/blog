@@ -16,8 +16,6 @@ This is an example of how computers communicate with each other to get responses
 
 Massive earthquakes in a remote location. Rubble everywhere, buildings damaged, people hurt. It’s too dangerous for humans to complete the rescue mission all by themselves.
 
-![A drone in a collapsed building detecting a survivor using an onboard edge AI processor](/assets/images/edgeai/edgeai3.jpg)
-
 You deploy a robot to navigate the area and rescue victims. Your robot currently takes in visual input and sends that input to a remote server, asking where to move next and whether or not a detected object is a victim to be rescued. There are two huge flaws:
 
 > **1. It’s a remote location!**<br>
