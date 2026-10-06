@@ -30,8 +30,6 @@ You deploy a robot to navigate the area and rescue victims. Your robot currently
 
 Because of these flaws, engineers use edge computing, where computation happens on or near the device itself rather than relying on a distant server. In our example, the robot could have its own edge computer, eliminating the need to constantly communicate with an external server and reducing latency.
 
-![Traditional AI in server farms losing signal, versus a rover with its own edge AI processor](/assets/images/edgeai/edgeai1.jpg)
-
 The pipeline gets simplified from:
 
 **Input → Robot → Remote Server → Robot → Output**
