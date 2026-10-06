@@ -16,6 +16,8 @@ This is an example of how computers communicate with each other to get responses
 
 Massive earthquakes in a remote location. Rubble everywhere, buildings damaged, people hurt. It’s too dangerous for humans to complete the rescue mission all by themselves.
 
+![A drone in a collapsed building detecting a survivor using an onboard edge AI processor](/assets/images/edgeai/edgeai3.jpg)
+
 You deploy a robot to navigate the area and rescue victims. Your robot currently takes in visual input and sends that input to a remote server, asking where to move next and whether or not a detected object is a victim to be rescued. There are two huge flaws:
 
 > **1. It’s a remote location!**<br>
@@ -23,8 +25,6 @@ You deploy a robot to navigate the area and rescue victims. Your robot currently
 
 > **2. Latency!**<br>
 > Even if you had a connection to a server, sending inputs to an external server and waiting for the server to send a response back takes time and increases latency. In crucial disaster-response situations, the robot needs to know what to do very quickly, so latency needs to be minimized.
-
-![Comparison of a drone waiting on a cloud AI server and crashing versus a drone processing on-device and avoiding a falling tree](/assets/images/edgeai/edgeai2.jpg)
 
 Because of these flaws, engineers use edge computing, where computation happens on or near the device itself rather than relying on a distant server. In our example, the robot could have its own edge computer, eliminating the need to constantly communicate with an external server and reducing latency.
 
